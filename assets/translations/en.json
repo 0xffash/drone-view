@@ -1,0 +1,26 @@
+{
+  "home": {
+    "title": "Welcome",
+    "subtitle": "Enjoy your stay",
+    "buttons": {
+      "login": "Sign in",
+      "register": "Create account"
+    }
+  },
+  "profile": {
+    "title": "Your Profile",
+    "edit_button": "Edit Profile"
+  },
+  "common": {
+    "buttons": {
+      "cancel": "Cancel",
+      "save": "Save",
+      "next": "Next",
+      "submit": "Submit"
+    },
+    "errors": {
+      "required": "This field is required",
+      "invalid_email": "Please enter a valid email"
+    }
+  }
+}

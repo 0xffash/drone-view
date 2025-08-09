@@ -1,0 +1,63 @@
+name: atheer
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+  shadcn_flutter: ^0.0.37
+  easy_localization: ^3.0.8
+  go_router: ^16.1.0
+  hugeicons: ^0.0.11
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.1
+  flutter_map_tile_caching: ^10.1.1
+  objectbox: ^4.3.0
+  objectbox_flutter_libs: ^4.3.0
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  video_player: ^2.10.0
+  video_player_media_kit: ^1.0.6
+  media_kit_libs_linux: ^1.2.1
+  media_kit_libs_windows_video: ^1.0.11
+  tflite_flutter: ^0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  fonts:
+    - family: Zain
+      fonts:
+        - asset: assets/fonts/Zain-Regular.ttf
+        - asset: assets/fonts/Zain-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Zain-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Zain-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Zain-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Zain-LightItalic.ttf
+          style: italic
+          weight: 300
+        - asset: assets/fonts/Zain-Italic.ttf
+          style: italic
+
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+    - assets/images/
+    - assets/tensor_flow/
+

@@ -1,0 +1,15 @@
+item {
+    name: "military vehicle",
+    id: 1,
+    display_name: "military vehicle"
+}
+item {
+    name: "soldier",
+    id: 2,
+    display_name: "soldier"
+}
+item {
+    name: "tank",
+    id: 3,
+    display_name: "tank"
+}
